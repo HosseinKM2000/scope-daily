@@ -9,7 +9,6 @@ import LoginButton from "./LoginButton/LoginButton";
 function UpSide() {
 const navbarStyle = "flex items-center gap-5 px-8 py-3 w-fit";
 const socialMediaStyle = "flex items-center gap-5 px-8 py-3 w-fit";
-const iconStyle = "text-lg";
 const navbarItems = [
     "About",
     "Contacts",
@@ -17,18 +16,18 @@ const navbarItems = [
     "Supports"
 ];
 const socialMediaItems = [
-    {Icon:FaFacebookF,path:"https://www.facebook.com"},
-    {Icon:BsTwitter,path:"https://twitter.com"},
-    {Icon:FaGooglePlusG,path:"https://www.google.com"},
-    {Icon:FaTelegramPlane,path:"https://web.telegram.org"},
-    {Icon:FaYoutube,path:"https://www.youtube.com"},
+    {Icon:FaFacebookF,path:"https://www.facebook.com",style:"hover:text-blue-700 transition-all text-lg"},
+    {Icon:BsTwitter,path:"https://twitter.com",style:"hover:text-blue-400 transition-all text-lg"},
+    {Icon:FaGooglePlusG,path:"https://www.google.com",style:"hover:text-orange-500 transition-all text-lg"},
+    {Icon:FaTelegramPlane,path:"https://web.telegram.org",style:"hover:text-sky-500 transition-all text-lg"},
+    {Icon:FaYoutube,path:"https://www.youtube.com",style:"hover:text-red-700 transition-all text-lg"},
 ];
 
     return (
         <div className="bg-blackMore text-whiteSmoke flex items-center justify-between px-3">
             <HeaderNav items={navbarItems} style={navbarStyle}/>
             <div className="flex items-center">
-                <SocialMediaContainer items={socialMediaItems} style={socialMediaStyle} iconStyle={iconStyle}/>
+                <SocialMediaContainer items={socialMediaItems} style={socialMediaStyle}/>
                 <LoginButton/>
                 <DateBox/>
             </div>

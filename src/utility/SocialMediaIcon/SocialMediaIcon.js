@@ -1,16 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 
 function SocialMediaIcon(props) {
 const {
     Icon,
     path,
-    iconStyle
+    iconStyle,
 } = props;
 
     return (
         <Link href={path} className={iconStyle}>
-            <Icon/>
+              <Icon/>
         </Link>
     );
 }
