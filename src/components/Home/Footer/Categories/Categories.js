@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Categories() {
     const categoriesItems = [
         {title:"Main",subsets:["Home","About","Contacts","References","Supports"]},
@@ -10,7 +12,7 @@ function Categories() {
                 categoriesItems.map((item,i) => (
                     <div key={i}>
                         <strong className="text-redPublic">{item.title}</strong>
-                        <ul className="text-white text-sm flex flex-col gap-5 mt-3">
+                        <ul className="text-white text-xs flex flex-col gap-5 mt-3">
                             {
                                 item.subsets.map((sub,index) => (
                                     <li key={index}>{sub}</li>
@@ -20,6 +22,7 @@ function Categories() {
                     </div>
                 ))
             }
+               <Image src="/image/continentsBackground.png" width={400} height={300} className="m-auto " alt="continents"/>
         </div>
     );
 }
