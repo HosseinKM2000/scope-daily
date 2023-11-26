@@ -6,7 +6,7 @@ import { IoIosSearch } from "react-icons/io";
 function Search() {
     const [click,setClick] = useState(false);
     return (
-        <div className="relative">
+        <div className="relative z-10">
             <IoIosSearch 
             className={
                 click

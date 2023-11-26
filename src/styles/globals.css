@@ -50,3 +50,36 @@ li
 {
   text-shadow: 1px 1px 3px black;
 }
+.otherDepartmentsAfter::after
+{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 20rem;
+  background: rgb(255, 255, 255);
+  top: -3rem;
+  left: 1.2rem;
+  transform: rotate(-45deg);
+  filter: blur(1.2px);
+  transition: all 0.5s;
+}
+.otherDepartmentsAfter:hover::after
+{
+  transform:rotate(-45deg);
+  top: -16rem;
+}
+.otherDepartmentsAfter:hover
+{
+    background: white;
+    opacity: 0.2;
+    transition: all 0.5s 0.1s;
+}
+.otherDepartments
+{
+  transition: all 0.5s;
+}
+.otherDepartments:hover
+{
+  transform: scale(1.1);
+}
