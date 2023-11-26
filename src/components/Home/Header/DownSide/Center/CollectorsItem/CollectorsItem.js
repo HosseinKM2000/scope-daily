@@ -26,9 +26,9 @@ function CollectorsItem({ item }) {
             <ul className={
                 isHover === item.title
                 ?
-                "bg-slate-300 w-max absolute p-3 text-sm font-light rounded-sm opacity-100 transition-all duration-300 top-[2.3rem] flex flex-col gap-3"
+                "bg-slate-300 w-max z-10 absolute p-3 text-sm font-light rounded-sm opacity-100 transition-all duration-300 top-[2.3rem] flex flex-col gap-3"
                 :
-                "bg-slate-300 w-max absolute p-3 text-sm font-light rounded-sm opacity-0 invisible overflow-hidden transition-all duration-300 top-[2.3rem] flex flex-col gap-3"
+                "bg-slate-300 w-max z-10 absolute p-3 text-sm font-light rounded-sm opacity-0 invisible overflow-hidden transition-all duration-300 top-[2.3rem] flex flex-col gap-3"
             }
             onMouseEnter={()=>mouseEnterHandle(item.title)}
             onMouseLeave={mouseLeaveHandle}

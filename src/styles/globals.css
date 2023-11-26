@@ -46,4 +46,7 @@ li
 {
   background: linear-gradient(45deg, rgba(0,252,232,1) 0%, rgba(0,255,69,1) 100%) !important;
 }
-
+.text-shadow
+{
+  text-shadow: 1px 1px 3px black;
+}
