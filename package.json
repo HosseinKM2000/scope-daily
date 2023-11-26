@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.0.5",
+    "classnames": "^2.3.2",
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "toastify-js": "^1.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",

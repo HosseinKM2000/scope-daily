@@ -35,3 +35,15 @@ li
 {
   cursor: pointer;
 }
+.toastStyle
+{
+  width: fit-content;
+  height: 3rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.toastSuccess
+{
+  background: linear-gradient(45deg, rgba(0,252,232,1) 0%, rgba(0,255,69,1) 100%) !important;
+}
+

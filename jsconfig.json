@@ -6,6 +6,7 @@
       "@/components/*": ["/src/components/*"],
       "@/styles/*": ["/src/styles/*"],
       "@/methods/*": ["/src/methods/*"],
+      "@/utility/*": ["/src/utility/*"],
     }
   }
 }

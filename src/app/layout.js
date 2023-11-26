@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import { open_sans } from './font';
+import "toastify-js/src/toastify.css";
 
 export const metadata = {
   title: 'Daily Scoop',

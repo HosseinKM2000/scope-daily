@@ -12,7 +12,7 @@ function getDeferentDate(TYPE){
         case "YEAR_NUM" : currentDate = year;
     }
     return currentDate;
-}
+};
 
 export {
     getDeferentDate
