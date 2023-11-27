@@ -62,12 +62,12 @@ li
   left: 1.2rem;
   transform: rotate(-45deg);
   filter: blur(1.2px);
-  transition: all 0.5s;
 }
 .otherDepartmentsAfter:hover::after
 {
   transform:rotate(-45deg);
   top: -16rem;
+  transition: all 0.4s;
 }
 .otherDepartmentsAfter:hover
 {
@@ -78,6 +78,7 @@ li
 .otherDepartments
 {
   transition: all 0.5s;
+  cursor: pointer;
 }
 .otherDepartments:hover
 {

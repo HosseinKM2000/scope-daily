@@ -1,10 +1,9 @@
-import Image from "next/image";
 
 function OtherDepartments() {
     const Items = [
         {title:"LifeStyle",desc:"Track information about your lifestyle",image:"/image/OtherDepartments/Luxury Leather iPhone Cases and Tech Accessories.jpg"},
         {title:"Health",desc:"Methods and ways of health and healthy living",image:"/image/OtherDepartments/No-Mercy Shoulder-Pump Workout.jpg"},
-        {title:"Food",desc:"Getting to know the food varieties of the world",image:"/image/OtherDepartments/Grilled Chicken Salad + Homemade Sweet Onion Dressing = WINNER!.jpg"},
+        {title:"Cooking",desc:"Getting to know the food varieties of the world",image:"/image/OtherDepartments/Grilled Chicken Salad + Homemade Sweet Onion Dressing = WINNER!.jpg"},
         {title:"Art & Design",desc:"A complete and detailed look at the artworks of the world",image:"/image/OtherDepartments/download.jpg"},
     ]
     return (
