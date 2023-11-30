@@ -1,11 +1,20 @@
 import { useQuery } from "@tanstack/react-query"
-import { getEconomicNewsData } from "src/api/request"
+import { getEconomicNewsData, 
+         getPopularNewsData,  } from "src/api/request"
 
 export const useEconomicNewsData = (url) => {
     return useQuery({
-        queryKey:["economyNews"],
+        queryKey:["EconomyNews"],
         queryFn: () => {
             return getEconomicNewsData(url)
+        }
+    })
+}
+export const usePopularNewsData = ({url,name}) => {
+    return useQuery({
+        queryKey:[name],
+        queryFn: () => {
+            return getPopularNewsData(url)
         }
     })
 }

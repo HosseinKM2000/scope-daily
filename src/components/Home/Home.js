@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import MainCategorySlice from "./MainCategorySlice/MainCategorySlice";
 import MoreCategorySlice from "./OtherDepartments/OtherDepartments";
 import OurDuty from "./OurDuty/OurDuty";
+import Popular from "./Popular/Popular";
 
 function HomeComponent() {
     return (
@@ -14,6 +15,7 @@ function HomeComponent() {
                 <MoreCategorySlice/>
                 <EconomicNewsSlider/>
                 <OurDuty/>
+                <Popular/>
             </div>
             <Footer/>
         </div>
